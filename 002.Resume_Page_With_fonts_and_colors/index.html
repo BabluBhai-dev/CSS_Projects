@@ -41,27 +41,36 @@
         box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.8);
       }
 
-      header h1{
+      header h1 {
         margin: 0;
         font-size: 2.2rem;
         color: #1d4ed8;
       }
 
-      header p{
+      header p {
         margin: 0.3rem 0 0;
         color: #374151;
-        font-weight: 500 ;
+        font-weight: 500;
       }
 
-      section{
+      section {
         margin-bottom: 2rem;
       }
-      section h2{
+      section h2 {
         font-size: 1.3rem;
         color: #1d4ed8;
         border-left: 4px solid #1d4ed8;
         padding-left: 0.6rem;
         margin-bottom: 1rem;
+      }
+      .skills span{
+        display: inline-block;
+        background: #e0e7ff;
+        color: #1d4ed8;
+        padding: 0.4rem 0.7rem;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        margin: 0.25rem;
       }
     </style>
   </head>
@@ -74,12 +83,26 @@
         <p>Email: bablu@example.com | Location: India</p>
       </header>
       <!-- summary -->
-       <section>
+      <section>
         <h2>Professional Summary</h2>
         <p>
-            Frontend developer with 5+ years of experience creating clean, semantic, and scalable web layouts. Strong focus on structure, readability, and professional UI systems.
+          Frontend developer with 5+ years of experience creating clean,
+          semantic, and scalable web layouts. Strong focus on structure,
+          readability, and professional UI systems.
         </p>
-       </section>
+      </section>
+      <!-- skills -->
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Semantic Markup</span>
+          <span>Responsive Layouts</span>
+          <span>SEO Basics</span>
+          <span>UI Architecture</span>
+        </div>
+      </section>
     </main>
   </body>
 </html>
