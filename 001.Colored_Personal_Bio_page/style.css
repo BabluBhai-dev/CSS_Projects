@@ -42,3 +42,18 @@ section h2{
 section p{
    color: #333333;
 }
+
+footer{
+   background-color:#111;
+   text-align: center;
+   padding: 32px 16px;
+}
+
+footer p{
+   color: #ccc;
+}
+
+footer a{
+   color: #93c5fd;
+   text-decoration: none;
+}
