@@ -20,3 +20,41 @@ header p{
     color: #cbd5f5;
     margin: 0;
 }
+
+main{
+    max-width: 900px;
+    padding: 0 16px;
+    margin: 40px auto;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 24px;
+    margin-bottom: 32px;
+    border-radius: 12px;
+}
+
+section h2{
+    color: #0000ff;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+section ul{
+    padding-left: 19px;
+    color: #666;
+}
+
+section span{
+    color:gray;
+    margin: 0;
+}
+
+h3{
+    font-size: 18px;
+}
+
+article{
+    margin-bottom: 24px;
+}
