@@ -22,3 +22,15 @@ header h1{
 header p{
     color: #cbd5f5;
 }
+
+.container{
+    background-color: #f4f6f8;
+    padding: 32px;
+}
+
+.box{
+    max-width: 900px;
+    background-color:white;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
