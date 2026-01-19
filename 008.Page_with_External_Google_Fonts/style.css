@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.content {
+  background-color: white;
+  margin: 100px auto;
+  width: 550px;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 40px black;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
