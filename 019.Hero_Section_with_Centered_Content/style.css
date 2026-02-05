@@ -1,0 +1,59 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* background color */
+
+body{
+    background-color: #333;
+}
+
+/* center the hero section */
+.hero-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-section p{
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.hero-section button{
+    background-color: aqua;
+    border-style: none;
+    padding:15px 30px;
+    cursor: pointer;
+}
+
+.hero-section p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.hero-section p:hover::after{
+    width:100%
+}
+
+.hero-section p:hover{
+    color: aqua;
+}
