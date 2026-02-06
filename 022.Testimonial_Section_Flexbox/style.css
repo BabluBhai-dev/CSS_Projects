@@ -1,0 +1,52 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 30px;
+}
+
+.feature h1{
+    margin-bottom: 30px;
+    
+}
+
+.card-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    
+}
+
+.card{
+    background-color: white;
+    padding: 30px;
+    justify-content: left;
+    border-radius: 8px;
+     box-shadow: 0px 4px 5px rgba(0, 0,0, 0.1) ;
+}
+
+
+
+.card  p:first-child{
+ margin-bottom: 20px;
+ color: #757171;
+}
+
+.card p{
+    color: #757171;
+}
+
+@media (max-width:768px) {
+    .card-section{
+        flex-direction: column;
+    }
+}
