@@ -69,4 +69,36 @@ body{
     box-shadow: 0 10px 30px rgba(99,102,241,0.6);
 }
 
+/* pulse effect */
+
+.pulse-btn::before,
+.pulse-btn::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    z-index: -1;
+    background: inherit;
+    opacity: 0.7;
+}
+
+.pulse-btn::before {
+  animation: pulse 2.5s infinite ease-out;
+}
+
+.pulse-btn::after {
+  animation: pulse 2.5s infinite ease-out;
+  animation-delay: 1.25s;
+}
+
+@keyframes pulse {
+ 0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
 
