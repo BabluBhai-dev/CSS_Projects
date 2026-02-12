@@ -44,3 +44,29 @@ body{
     border-radius: 1.5rem;
     backdrop-filter: blur(10px);
 }
+
+/* pulse button */
+
+.pulse-btn{
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg,#38bdf8,#6366f1);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    isolation: isolate;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover transition */
+
+.pulse-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(99,102,241,0.6);
+}
+
+
