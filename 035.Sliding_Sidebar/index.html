@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sliding Sidebar</title>
 </head>
 <body>
-    
+    <button class="menu-btn" onclick="toggleSidebar()">☰ Menu</button>
+    <div class="sidebar" id="sidebar">
+        <h2>Sidebar</h2>
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+    </div>
+
+    <script>
+        function toggleSidebar(){
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
