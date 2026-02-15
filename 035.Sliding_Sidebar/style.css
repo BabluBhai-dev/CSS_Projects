@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #020617;
+    color: white;
+}
+
+/* menu button */
+
+.menu-btn{
+    margin: 20px;
+    padding:10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:250px;
+    height: 100vh;
+    background:#1e293b ;
+    padding: 20px;
+    /* hide sidebar */
+    transform: translateX(-100%);
+
+    /* smoth slide */
+    transition: transform 0.3s ease;
+}
+
+.sidebar.active{
+    transform: translateX(0);
+}
