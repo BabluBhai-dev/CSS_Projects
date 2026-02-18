@@ -11,3 +11,10 @@
     color:white;
     cursor:pointer;
 }
+
+/* hide the content */
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+}
