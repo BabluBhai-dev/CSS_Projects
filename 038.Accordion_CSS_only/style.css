@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .accordion input{
     display:none;
 }
@@ -7,9 +13,10 @@
 .accordion label{
     display:block;
     padding:1rem;
-    background:#1e293b;
-    color:white;
+    background:#334155;
+    color:#ffffff;
     cursor:pointer;
+    padding:  1rem;
 }
 
 /* hide the content */
@@ -17,14 +24,31 @@
 .content{
     max-height: 0;
     overflow: hidden;
-    /* add smooth animation */
-    transition:max-height 60s ease;
+    /* added smooth animation */
+    transition: max-height 0.3s ease;
+    background:#1e293b;
+    color: #ffff;
+    
 }
 
 /* open the content when checked */
 
 .accordion input:checked ~ .content{
     max-height: 200px;
+    padding: 1rem;
 }
+
+/* Added arrow icon */
+
+.accordion label::after{
+    content:"▶";
+    float: right;
+    transition: transform 0.3s;
+}
+
+.accordion input:checked + label::after{
+    transform: rotate(90deg);
+}
+
 
 
