@@ -1,3 +1,13 @@
 .accordion input{
     display:none;
 }
+
+/* making the title look clickable */
+
+.accordion label{
+    display:block;
+    padding:1rem;
+    background:#1e293b;
+    color:white;
+    cursor:pointer;
+}
