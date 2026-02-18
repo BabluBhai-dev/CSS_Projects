@@ -17,4 +17,14 @@
 .content{
     max-height: 0;
     overflow: hidden;
+    /* add smooth animation */
+    transition:max-height 60s ease;
 }
+
+/* open the content when checked */
+
+.accordion input:checked ~ .content{
+    max-height: 200px;
+}
+
+
