@@ -63,6 +63,27 @@ body{
     transition: transform 0.3s;
 }
 
+/* content */
+.content{
+    max-height: 0;
+    overflow: hidden;
+    background:#1e293b;
+    transition:max-height 0.4s ease;
+    padding:0 1rem;
+}
+
+/* open the content */
+
+.item input:checked ~ .content{
+    max-height: 150px;
+}
+
+.content p{
+  padding:1rem 0;
+}
+
+
+
 /* transform arrow */
 
 .item input:checked ~ label::after{
