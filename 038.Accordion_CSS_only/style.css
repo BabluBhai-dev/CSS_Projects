@@ -53,3 +53,18 @@ body{
 .item label:hover{
     background: #475569;
 }
+
+/* arrow */
+
+.item label::after{
+    content: "▶";
+    position: absolute;
+    right: 15px;
+    transition: transform 0.3s;
+}
+
+/* transform arrow */
+
+.item input:checked ~ label::after{
+    transform: rotate(90deg);
+}
