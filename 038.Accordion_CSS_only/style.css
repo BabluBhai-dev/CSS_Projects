@@ -30,3 +30,9 @@ body{
     border-radius: 8px;
     overflow: hidden;
 }
+
+/* hide checkbox */
+
+.item input{
+    display: none;
+}
