@@ -22,3 +22,11 @@ body{
 .wrapper{
     width: 350px;
 }
+
+/* Accordion box */
+
+.accordion{
+    background: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+}
