@@ -26,3 +26,12 @@ body{
 .item input{
     display: none;
 }
+
+/* style label */
+
+.item label{
+    display: block;
+    padding: 1rem;
+    background: #334155;
+    cursor: pointer;
+}
