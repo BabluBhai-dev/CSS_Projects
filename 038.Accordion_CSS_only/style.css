@@ -36,3 +36,14 @@ body{
 .item input{
     display: none;
 }
+
+/* label */
+
+.item label{
+    display: block;
+    padding: 1rem;
+    cursor: pointer;
+    background: #334155;
+    position: relative;
+    transition: background 0.3s;
+}
