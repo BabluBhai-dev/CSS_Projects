@@ -20,3 +20,9 @@ body{
 .wrapper{
     width: 350px;
 }
+
+/* hide checkbox */
+
+.item input{
+    display: none;
+}
