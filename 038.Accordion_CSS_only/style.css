@@ -1,55 +1,8 @@
 /* reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* styling body for better UI */
-
-body{
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    background: #0f172a;
-    color: white;
-}
-
-/* style wrapper */
-
-.wrapper{
-    width: 350px;
-}
-
-/* hide checkbox */
-
-.item input{
-    display: none;
-}
-
-/* style label */
-
-.item label{
-    display: block;
-    padding: 1rem;
-    background: #334155;
-    cursor: pointer;
-}
-
-/* hide content */
-
-.content{
-    /* closed */
-     max-height: 0;
-     /* after closed which is pending its get closed */
-     overflow: hidden;
-     background: #1e293b;
-     transition: max-height 0.4s ease;
-
-}
-
-/* magic line which is important */
-
-.item input:checked ~ .content{
-    max-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
