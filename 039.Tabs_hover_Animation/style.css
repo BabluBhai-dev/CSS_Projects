@@ -22,3 +22,9 @@ body{
 .warpper{
     width: 400px;
 }
+
+/* hide radio button */
+
+.tabs input{
+    display: none;
+}
