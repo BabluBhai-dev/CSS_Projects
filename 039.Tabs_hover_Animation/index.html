@@ -1,24 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS Tabs</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <main class="wrapper">
-            <section class="tabs">
-                <!-- tab1 -->
-                 <input type="radio" name="tab" id="tab1" checked>
-                 <label for="tab1">Home</label>
-                 <!-- tab2 -->
-                  <input type="radio" name="tab" id="tab2">
-                  <label for="tab2">About</label>
-                <!-- tab3 -->
-                 <input type="radio" name="tab" id="tab3">
-                 <label for="tab3">Contact</label>
-            </section>
-        </main>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tabs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="tabs">
+        <!-- tab1 -->
+        <input type="radio" name="tab" id="tab1" checked />
+        <label for="tab1">Home</label>
+        <!-- tab2 -->
+        <input type="radio" name="tab" id="tab2" />
+        <label for="tab2">About</label>
+        <!-- tab3 -->
+        <input type="radio" name="tab" id="tab3" />
+        <label for="tab3">Contact</label>
+        <!-- content section -->
+        <div class="content content1">
+          <h2>Home</h2>
+          <p>Welcome to the Home tab.</p>
+        </div>
+        <div class="content content2">
+          <h2>About</h2>
+          <p>This is the About section.</p>
+        </div>
+        <div class="content content3">
+          <h2>Contact</h2>
+          <p>Contact us anytime.</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
