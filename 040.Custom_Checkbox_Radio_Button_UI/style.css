@@ -22,3 +22,9 @@ body{
 .wrapper{
     width: 300px;
 }
+
+/* hide the original chekbox and radiobox */
+
+.custom-checkbox input,.custom-radio input{
+    display: none;
+}
