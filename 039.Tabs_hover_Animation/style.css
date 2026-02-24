@@ -53,3 +53,13 @@ body{
     color: black;
 }
 
+/* hide all content */
+
+.content{
+    display: none;
+    padding:1.rem ;
+    background: #1e293b;
+    margin-top: 1rem;
+    border-radius: 6px;
+}
+
