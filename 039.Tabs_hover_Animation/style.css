@@ -36,5 +36,15 @@ body{
     padding: 1rem 2rem;
     background: #1e293b;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s
 }
+
+/* hover animation */
+
+.tabs label:hover{
+    background: #334155;
+    transform : translateY(-3px);
+}
+
+
+
