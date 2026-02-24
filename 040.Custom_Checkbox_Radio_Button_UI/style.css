@@ -17,3 +17,8 @@ body{
     color: white;
 }
 
+/* wrapper */
+
+.wrapper{
+    width: 400px;
+}
