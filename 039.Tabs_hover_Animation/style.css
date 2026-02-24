@@ -57,9 +57,18 @@ body{
 
 .content{
     display: none;
-    padding:1.rem ;
+    padding:1.5rem ;
     background: #1e293b;
     margin-top: 1rem;
     border-radius: 6px;
+    
+}
+
+/* show correct content */
+
+#tab1:checked ~ .content1,
+#tab2:checked ~ .content2,
+#tab3:checked ~ .content3{
+    display: block;
 }
 
