@@ -28,3 +28,13 @@ body{
 .custom-checkbox input,.custom-radio input{
     display: none;
 }
+
+/* create fake checkbox */
+
+.checkmark{
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    display: inline-block;
+    margin-right: 8px;
+}
