@@ -38,3 +38,15 @@ body{
     display: inline-block;
     margin-right: 8px;
 }
+
+/* create fake radio circle */
+
+.radiomark{
+  width:20px;
+  height:20px;
+  border:2px solid pink;
+  border-radius:50%;
+  display:inline-block;
+  margin-right:8px;
+}
+
