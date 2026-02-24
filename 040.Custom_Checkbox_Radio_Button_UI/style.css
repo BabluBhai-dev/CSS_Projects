@@ -50,3 +50,8 @@ body{
   margin-right:8px;
 }
 
+/* add checked effect */
+
+.custom-checkbox input:checked + .checkmark{
+    background: blue;
+}
