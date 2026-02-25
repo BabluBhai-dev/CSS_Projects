@@ -16,3 +16,12 @@ body{
     color: white;
     background: #0f172a;
 }
+
+/*form wrapper */
+
+.form-wrapper{
+    width:350px;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+}
