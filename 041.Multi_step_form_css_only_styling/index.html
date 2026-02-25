@@ -1,21 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multi-step Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Basic html structure -->
     <div class="form-wrapper">
-        <form>
-            <h2>Multi step form</h2>
-            <!-- add step controlled -->
-             <input type="radio" name="step" id="step1" checked>
-             <input type="radio" name="step" id="step2">
-             <input type="radio" name="step" id="step3">
-        </form>
+      <form>
+        <h2>Multi step form</h2>
+        <!-- add step controlled -->
+        <input type="radio" name="step" id="step1" checked />
+        <input type="radio" name="step" id="step2" />
+        <input type="radio" name="step" id="step3" />
+        <!-- create steps section -->
+        <!-- step 1 -->
+        <div class="steps step1">
+          <label>Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <label for="step2" class="next">Next</label>
+        </div>
+        <!-- step2 -->
+        <div class="steps step2">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+          <label for="step1" class="Back">Back</label>
+          <label for="step3" class="Next">Next</label>
+        </div>
+        <!-- step3 -->
+        <div class="steps step3">
+          <label>Password</label>
+          <input type="password" placeholder="Enter password" />
+          <label for="step2" class="Back">Back</label>
+          <label type="submit">Submit</label>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
