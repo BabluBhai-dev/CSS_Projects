@@ -55,3 +55,9 @@ body{
 .custom-checkbox input:checked + .checkmark{
     background: blue;
 }
+
+/* add radio effect */
+
+.custom-radio input:checked + .radiomark{
+    background: pink;
+}
