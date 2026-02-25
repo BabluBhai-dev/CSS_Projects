@@ -37,6 +37,7 @@ body{
     border: 2px solid blue;
     display: inline-block;
     margin-right: 8px;
+    position: relative;
 }
 
 /* create fake radio circle */
@@ -61,3 +62,27 @@ body{
 .custom-radio input:checked + .radiomark{
     background: pink;
 }
+
+/* make it look clean */
+
+.custom-checkbox,.custom-radio{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* add tickmark to the checkbox */
+
+.custom-checkbox input:checked + .checkmark::after{
+    content: "✔";
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    left: 3px;
+    top: -2px;
+}
+
+
