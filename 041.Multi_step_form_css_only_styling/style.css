@@ -1,33 +1,112 @@
-/* reset */
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial,Sans-Serif;
 }
-
-/* Basic form styling */
 
 body{
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    color: white;
-    background: #0f172a;
+  background: pink;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-/*form wrapper */
+h1{
+  text-align: center;
+}
 
 .form-wrapper{
-    width:350px;
-    background-color: #1e293b;
-    padding: 20px;
-    border-radius: 8px;
+  width: 400px;
+  background: red;
+  padding: 40px;
+  border-radius: 8px;
 }
 
-/* hide the input */
+.indicator{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.steps{
+  background: blue;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 input[type="radio"]{
-    display: none;
+  display: none;
 }
+
+.content{
+  width: 100%;
+  display: none;
+  margin-top: 10px;
+  
+}
+
+#step1:checked ~ .indicator label[for="step1"]{
+  background: black;
+}
+
+#step2:checked ~ .indicator label[for="step2"]{
+  background: black;
+}
+
+#step3:checked ~ .indicator label[for="step3"]{
+  background: black;
+}
+
+#step1:checked ~ .content-A{
+  display: block;
+}
+
+#step2:checked ~ .content-B{
+  display: block;
+}
+
+#step3:checked ~ .content-c{
+  display: block;
+}
+
+.form1,.form2,.form3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.form1 input,.form2 input,.form3 input{
+  width: 100%;
+  padding: 7px;
+  border-radius: 6px;
+  border: none;
+}
+
+.form1 .Next1,.form2 .Next2,.form3 .submit{
+  background: blue;
+  color: white;
+  width: 100%;
+  padding: 7px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+}
+
+.form2 .back,.form3 .back{
+  background: blue;
+  color: white;
+  width: 100%;
+  padding: 7px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+}
+
+
