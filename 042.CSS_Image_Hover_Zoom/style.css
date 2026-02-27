@@ -50,3 +50,14 @@ header{
         transform:translateY(-10px);
     }
 }
+
+/* gellary grid */
+
+.gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(autofitm,minmax(300px,1fr));
+    gap:30px;
+    padding-bottom: 50px;
+}
