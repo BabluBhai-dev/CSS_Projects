@@ -5,6 +5,43 @@
   box-sizing: border-box;
 }
 
+body{
+background:#0f172a;
+color:white;
+min-height:100vh;
+overflow-y:scroll;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#020617;
+}
+
+::-webkit-scrollbar-thumb{
+background:linear-gradient(#22c55e,#06b6d4);
+border-radius:10px;
+}
+
+header{
+text-align:center;
+padding:40px 20px;
+}
+
+.title{
+font-size:2.5rem;
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+}
+
 /* making gallery grid */
 
 .gallery {
@@ -13,6 +50,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+  padding-bottom:50px ;
 }
 
 /* card */
@@ -96,6 +134,16 @@ margin-bottom:5px;
 .card:hover figcaption{
 opacity:1;
 transform:translateY(0);
+}
+
+/* =====================
+   FOOTER
+===================== */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
 }
 
 
