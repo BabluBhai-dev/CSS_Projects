@@ -23,5 +23,8 @@ body{
         #3a86ff,
         #06d6a0
 
-    );   
+    ); 
+    
+    /* important for animation */
+    background-size: 300% 300%;
 }
