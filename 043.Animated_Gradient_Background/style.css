@@ -27,4 +27,23 @@ body{
     
     /* important for animation */
     background-size: 300% 300%;
+
+    animation: gradientMove 8s ease infinite;
 }
+
+/* content */
+
+.hero{
+text-align:center;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:1.2rem;
+opacity:0.8;
+}
+
