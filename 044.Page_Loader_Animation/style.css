@@ -13,3 +13,10 @@ body{
     align-items: center;
     background-color: #0f172a;
 }
+
+/* loader */
+
+.loader{
+    display: flex;
+    gap: 15px;
+}
