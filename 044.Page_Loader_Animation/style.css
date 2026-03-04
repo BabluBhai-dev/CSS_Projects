@@ -40,3 +40,14 @@ body{
 .loader span:nth-child(3){
     animation-delay: 0.4s;
 }
+
+/* animation */
+
+@keyframes bounce{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-20px) ;
+    }
+}
