@@ -10,3 +10,12 @@
 body{
     background: #0f172a;
 }
+
+ /* timeline line */
+
+.timeline{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
