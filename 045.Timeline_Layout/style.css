@@ -65,3 +65,21 @@ body{
 .content:hover{
   transform:scale(1.05);
 }
+
+/* circle dots */
+
+.container::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #22c55e;
+    border-radius: 50%;
+    top:30;
+    right:-10px;
+    z-index: 1;
+}
+
+.right::after{
+    left:-10px;
+}
