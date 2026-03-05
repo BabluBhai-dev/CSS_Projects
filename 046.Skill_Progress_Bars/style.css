@@ -39,3 +39,35 @@ body{
     border-radius: 20px;
     overflow: hidden;
 }
+
+.progress-bar{
+    height: 100%;
+    background: #22c55e;
+    width: 0;
+    animation:load 2s forwards;
+}
+
+.html{
+    width:90%;
+
+}
+
+.css{
+    width:80%;
+    
+}
+
+.js{
+    width:70%;
+    
+}
+
+.react{
+    width: 60%;
+}
+
+@keyframes load{
+    from{
+        width:0;
+    }
+}
