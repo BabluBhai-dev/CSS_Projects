@@ -31,3 +31,22 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* container */
+
+.container{
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+}
+
+/* left side */
+.left{
+    left:0;
+}
+
+/* right side */
+
+.right{
+    left: 50%;
+}
