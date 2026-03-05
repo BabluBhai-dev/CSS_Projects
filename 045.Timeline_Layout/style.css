@@ -19,3 +19,15 @@ body{
     margin: auto;
 }
 
+/* verticle center line */
+
+.timeline::after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    background-color:#22c55e;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
