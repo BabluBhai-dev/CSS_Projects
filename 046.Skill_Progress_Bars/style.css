@@ -22,3 +22,8 @@ body{
     border-radius: 10px;
     color: white;
 }
+
+.skills h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
