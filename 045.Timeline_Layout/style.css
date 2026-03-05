@@ -50,3 +50,18 @@ body{
 .right{
     left: 50%;
 }
+
+/* content box */
+
+.content{
+  background:#1e293b;
+  padding:20px;
+  border-radius:8px;
+  color:#fff;
+  position:relative;
+  transition:0.3s;
+}
+
+.content:hover{
+  transform:scale(1.05);
+}
