@@ -23,3 +23,14 @@ body{
 .rating-wrapper{
     text-align: center;
 }
+
+/* rating */
+
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
