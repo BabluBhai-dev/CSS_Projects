@@ -47,3 +47,13 @@ body{
     cursor: pointer;
     transition: 0.3s;
 }
+
+ /* hover the label   */ 
+
+ /* very important */
+
+.rating label:hover,
+.rating label:hover ~label{
+    color: gold;
+    transform: scale(1.2);
+}
