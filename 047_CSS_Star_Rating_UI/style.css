@@ -34,3 +34,8 @@ body{
     margin-top: 20px;
 }
 
+/* hiding the radio button  */
+
+.rating input{
+    display: none;
+}
