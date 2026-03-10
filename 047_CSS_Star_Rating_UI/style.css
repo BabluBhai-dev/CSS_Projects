@@ -39,3 +39,11 @@ body{
 .rating input{
     display: none;
 }
+
+/* designing the label */
+
+.rating label{
+    color:#444;
+    cursor: pointer;
+    transition: 0.3s;
+}
