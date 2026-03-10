@@ -7,6 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* styling the body  */
+
 body{
     height: 100vh;
     display: flex;
@@ -14,4 +16,10 @@ body{
     align-items: center;
     background: #0f172a;
     color: white;
+}
+
+/* centering the text */
+
+.rating-wrapper{
+    text-align: center;
 }
