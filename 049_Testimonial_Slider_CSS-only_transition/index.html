@@ -1,12 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testimonial slider</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <input type="radio" name="slide" id="s1" checked />
+      <input type="radio" name="slide" id="s2" />
+      <input type="radio" name="slide" id="s3" />
+      <div class="slides">
+        <div class="slide">
+          <p>"This service is amazing. I learned a lot!"</p>
+          <h3>- Arif</h3>
+        </div>
+        <div class="slide">
+          <p>"Very easy CSS projects to understand."</p>
+          <h3>- Rahul</h3>
+        </div>
+        <div class="slide">
+          <p>"Best way to practice front-end."</p>
+          <h3>- Ahmed</h3>
+        </div>
+      </div>
+      <div class="dots">
+        <label for="s1"></label>
+        <label for="s2"></label>
+        <label for="s3"></label>
+      </div>
+    </div>
+  </body>
 </html>
