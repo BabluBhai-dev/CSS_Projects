@@ -26,3 +26,27 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+/* tooltip text */
+
+.tooltip .tooltiptext{
+    /* visibility: hidden; */
+    width:160px;
+    background-color:#1e293b;
+    color:#fff;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+
+    /* position above the element */
+
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* fade in effect */
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
