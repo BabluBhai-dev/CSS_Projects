@@ -1,9 +1,9 @@
 /* reset */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* body */
@@ -13,5 +13,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#f1f5f9;
+    background: #f1f5f9;
+}
+
+/* tooltip container */
+
+.tooltip{
+    position:relative;
+    display: inline-block;
+    cursor: pointer;
+    background: #22c55e;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
