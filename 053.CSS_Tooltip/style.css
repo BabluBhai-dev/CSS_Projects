@@ -50,3 +50,16 @@ body{
     opacity: 0;
     transition: opacity 0.3s;
 }
+
+/* tootip arrow */
+
+.tooltip .tooltiptext::after{
+content:"";
+position:absolute;
+top:100%; /*bottom of tooltip box */
+left:50%;
+transform:translateX(-50%);
+border-width:5px;
+border-style:solid;
+border-color:#1e293b transparent transparent transparent;
+}
