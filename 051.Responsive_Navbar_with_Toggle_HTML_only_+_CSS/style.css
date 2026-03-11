@@ -42,3 +42,9 @@ body{
     color: white;
     text-decoration: none;
 }
+
+/* hide checkbox */
+#menu{
+    display: none;
+}
+
