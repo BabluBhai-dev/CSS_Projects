@@ -72,5 +72,13 @@ body{
         transition: 0.4s;
     }
 
-    
+    /* when checkbox checked */
+
+    #menu:checked ~ .nav-links{
+        max-height: 300px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
 }
