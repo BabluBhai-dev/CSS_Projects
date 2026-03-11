@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f1f5f9;
+    background-color: aqua;
 }
 
 /* slider box */
@@ -28,4 +28,21 @@ body{
 
 .slider input{
     display: none;
+}
+
+/* slides container */
+
+.slides{
+    display: flex;
+    width: 300%;
+    transition: 0.5s;
+}
+
+.slide{
+    width:100%;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
