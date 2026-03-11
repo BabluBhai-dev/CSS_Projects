@@ -16,3 +16,11 @@ body{
     align-items: center;
     background: #f1f5f9;
 }
+
+/* card container */
+
+.card{
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+}
