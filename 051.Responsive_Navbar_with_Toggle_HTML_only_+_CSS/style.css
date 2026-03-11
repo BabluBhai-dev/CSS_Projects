@@ -55,3 +55,22 @@ body{
     font-size: 28px;
     cursor: pointer;
 }
+
+/* mobile design */
+
+@media (max-width:768px) {
+    .nav-links{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #1e293b;
+        flex-direction: column;
+        text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+
+    
+}
