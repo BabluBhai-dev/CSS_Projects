@@ -12,3 +12,14 @@
 body{
     background: #f1f5f9;
 }
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 15px 30px;
+    color:white
+}
