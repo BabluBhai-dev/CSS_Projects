@@ -30,7 +30,7 @@ body{
 /* tooltip text */
 
 .tooltip .tooltiptext{
-    /* visibility: hidden; */
+    visibility: hidden;
     width:160px;
     background-color:#1e293b;
     color:#fff;
@@ -47,7 +47,7 @@ body{
 
     /* fade in effect */
 
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.3s;
 }
 
@@ -62,4 +62,11 @@ transform:translateX(-50%);
 border-width:5px;
 border-style:solid;
 border-color:#1e293b transparent transparent transparent;
+}
+
+/* show tooltip on hover */
+
+.tooltip:hover .tooltiptext{
+visibility:visible;
+opacity:1;
 }
