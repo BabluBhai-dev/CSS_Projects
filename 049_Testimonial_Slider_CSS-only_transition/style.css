@@ -68,3 +68,17 @@ body {
     margin: 5px;
     cursor: pointer;
 }
+
+/* slider movement */
+
+#s1:checked ~ .slides{
+    transform: translateX(0);
+}
+
+#s2:checked ~ .slides{
+    transform: translateX(-100%);
+}
+
+#s3:checked ~ .slides{
+    transform: translateX(-300%);
+}
