@@ -23,3 +23,16 @@ body{
     position: relative;
     font-size: 50px;
 }
+
+/* badge */
+
+.badge{
+    position: absolute;
+    top:-5px;
+    right:-10px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 50%;
+}
