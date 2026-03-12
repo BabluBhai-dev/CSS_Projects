@@ -1,14 +1,36 @@
 /* reset */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* body */
 
-body{
-    height: 100vh;
-    background: #f1f5f9;
+body {
+  height: 100vh;
+  background: #f1f5f9;
+}
+
+/* floating button */
+
+.fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  width: 60px;
+  height: 60px;
+  background: #22c55e;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
