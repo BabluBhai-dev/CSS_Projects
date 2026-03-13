@@ -57,3 +57,13 @@ transition:0.3s;
 #toggle:checked + .switch::before{
     transform: translateX(30px);
 }
+
+/* dark mode */
+
+#toggle:checked ~ .content{
+    color: white;
+}
+
+#toggle:checked ~ body{
+background:#111;
+}
