@@ -19,3 +19,9 @@ body {
   color: #000;
   transition: 0.4s;
 }
+
+/* hide checkbox */
+
+#toggle{
+    display: none;
+}
