@@ -34,3 +34,16 @@ body{
 .login-box h2{
     margin-bottom: 20px;
 }
+
+/* input */
+
+.login-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius:10px;
+    box-shadow: 8px 8px 10px #a3b1c6,
+    -8px -8px 10px #ffffff;
+}
