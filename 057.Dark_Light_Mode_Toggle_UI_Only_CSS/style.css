@@ -25,3 +25,15 @@ body {
 #toggle{
     display: none;
 }
+
+/* toggle switch */
+
+.switch{
+width:60px;
+height:30px;
+background:#ccc;
+border-radius:30px;
+position:relative;
+cursor:pointer;
+margin-bottom:20px;
+}
