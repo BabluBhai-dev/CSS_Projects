@@ -16,3 +16,16 @@ body{
     align-items: center;
     background-color: #e0e5ec;
 }
+
+/* login box */
+
+.login-box{
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    background: #e0e5ec;
+   box-shadow: 8px 8px 15px #a3b1c6,
+   -8px -8px 15px #ffffff;
+    text-align: center;
+}
+
