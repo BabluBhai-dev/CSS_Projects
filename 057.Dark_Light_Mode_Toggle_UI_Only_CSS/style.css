@@ -52,4 +52,8 @@ left:3px;
 transition:0.3s;
 }
 
+/* move circle */
 
+#toggle:checked + .switch::before{
+    transform: translateX(30px);
+}
