@@ -6,3 +6,20 @@
   box-sizing: border-box;
   font-family: Arial;
 }
+
+body{
+height:100vh;
+background:#f1f5f9;
+}
+
+.toast{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #22c55e;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    animation: slidein 0.5s ease;
+}
