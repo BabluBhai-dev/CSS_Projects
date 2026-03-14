@@ -37,3 +37,10 @@
   padding: 20px;
   transition: 0.4s;
 }
+
+
+/* when checkbox checked  */
+#menu:checked  ~.sidebar{
+    left: 0;
+}
+
