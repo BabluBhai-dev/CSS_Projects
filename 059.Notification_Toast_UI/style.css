@@ -23,3 +23,17 @@ background:#f1f5f9;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     animation: slidein 0.5s ease;
 }
+
+/* animation */
+
+@keyframes slidein {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
