@@ -36,3 +36,13 @@ body{
     padding: 15px;
     text-align: center;
 }
+
+/* message area */
+
+.chat-box{
+    flex: 1;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
