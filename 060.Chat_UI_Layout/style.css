@@ -27,3 +27,12 @@ body{
     flex-direction: column;
     overflow: hidden;
 }
+
+/* header */
+
+.chat-header{
+    background: #22c55e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
