@@ -32,3 +32,14 @@ body{
     color: white;
     padding: 20px;
 }
+
+/* header */
+
+.header{
+    grid-column: 2/3;
+    background: #22c55e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
