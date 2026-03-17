@@ -6,3 +6,15 @@
     box-sizing: border-box;
     font-family: arial;
 }
+
+/* main box */
+
+.profile{
+    width: 320px;
+    height: 300px;
+    background: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
