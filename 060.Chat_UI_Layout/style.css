@@ -54,3 +54,10 @@ body{
     border-radius: 20px;
     max-width: 70%;
 }
+
+/* left message */
+
+.left{
+    background: #e2e8f0;
+    align-self: flex-start;
+}
