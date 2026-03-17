@@ -31,3 +31,12 @@ body {
   overflow: hidden;
   border-radius: 10px;
 }
+
+/* image */
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+
