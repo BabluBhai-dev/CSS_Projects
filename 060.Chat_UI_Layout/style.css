@@ -63,8 +63,33 @@ body {
 }
 
 /* right message */
+
 .right {
   background: #22c55e;
   color: white;
   align-self: flex-end;
 }
+
+/* Input area */
+
+.chat-Input{
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+.chat-Input input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.chat-Input button{
+    padding: 10px 15px;
+    border: none;
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+
