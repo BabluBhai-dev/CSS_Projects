@@ -58,4 +58,10 @@ body {
   transition: 0.4s;
 }
 
+/* styling the overlay when we hover */
+
+.overlay:hover{
+    opacity: 1;
+}
+
 
