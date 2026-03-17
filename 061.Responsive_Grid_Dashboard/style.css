@@ -61,3 +61,26 @@ body{
 .card:nth-child(6){
     grid-column: 2/3;
 }
+
+/* responsive */
+
+@media (max-width:768px) {
+
+    .dashboard{
+grid-template-columns:1fr;
+grid-template-rows:auto;
+}
+
+.sidebar{
+grid-row:auto;
+}
+
+.header{
+grid-column:auto;
+}
+
+.card{
+grid-column:auto;
+}
+    
+}
