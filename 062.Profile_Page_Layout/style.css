@@ -28,3 +28,9 @@ body{
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
+/* styling the cover */
+
+.cover{
+    height: 120px;
+    background: #22c55e;
+}
