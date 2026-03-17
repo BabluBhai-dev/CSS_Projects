@@ -30,3 +30,28 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   opacity: 0.95;
 }
+
+/* success */
+
+.alert.success {
+  background: #22c55e;
+}
+
+/* error */
+
+.alert.error {
+  background: #ef4444;
+}
+
+/* warning */
+
+.alert.warning {
+  background: #facc15;
+  color: #333;
+}
+
+/* info */
+
+.alert.info {
+  background: #3b82f6;
+}
