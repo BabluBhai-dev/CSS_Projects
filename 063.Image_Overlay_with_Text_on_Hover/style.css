@@ -16,3 +16,9 @@ body{
     align-items: center;
     background: #f1f5f9;
 }
+
+/* container */
+
+.container{
+    display: flex;
+}
