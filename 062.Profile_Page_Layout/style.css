@@ -7,6 +7,16 @@
     font-family: arial;
 }
 
+/* styling the body */
+
+body{
+    background:#f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 /* main box */
 
 .profile{
