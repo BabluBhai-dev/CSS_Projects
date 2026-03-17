@@ -6,3 +6,20 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+
+/* body */
+
+body{
+    background: #f1f5f9;
+}
+
+/* main grid */
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows:60px 1fr;
+    min-height: 100vh;
+    gap: 10px;
+    padding: 10px;
+}
