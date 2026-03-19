@@ -84,3 +84,13 @@ body{
   color: white;
   cursor: pointer;
 }
+
+/* movies */
+
+.movies{
+    padding: 20px 50px;
+}
+
+.movies h2{
+    margin: 20px 0 10px;
+}
