@@ -47,3 +47,40 @@ body {
 .header .nav a:hover{
     color: #22c55e;
 }
+
+/* hero section */
+
+.hero{
+    height: 80vh;
+    background: #e5e5e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #111;
+    gap: 15px;
+}
+
+.hero h1{
+    font-size: 48px;
+}
+
+.hero p{
+    font-size: 24px;
+}
+
+.hero button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #22c55e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero button:hover{
+    background: #16a34a;
+}
