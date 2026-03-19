@@ -34,3 +34,16 @@ body {
     font-size: 28px;
     font-weight: bold;
 }
+
+/* header nav anchor tag */
+
+.header .nav a{
+    text-decoration: none;
+    color: #111;
+    margin: 0 12px;
+    transition: color 0.3s;
+}
+
+.header .nav a:hover{
+    color: #22c55e;
+}
