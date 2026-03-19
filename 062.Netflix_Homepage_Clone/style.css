@@ -37,3 +37,14 @@ body{
     padding: 8px 15px;
 }
 
+/* hero */
+
+.hero{
+    height: 90vh;
+    background: url("https://via.placeholder.com/1600x800") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
