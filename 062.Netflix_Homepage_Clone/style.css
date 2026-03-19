@@ -11,3 +11,29 @@ body{
     background: black;
     color: white;
 }
+
+/* header section */
+
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    z-index: 10;
+}
+
+.logo{
+    color: #e50914;
+    font-size: 28px;
+}
+
+.btn{
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+
+}
