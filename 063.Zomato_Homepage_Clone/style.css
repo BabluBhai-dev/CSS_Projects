@@ -49,3 +49,27 @@ body {
     font-size: 20px;
     margin: 10px 0 20px;
 }
+
+/* search box */
+
+.search-box{
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-box input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+.search-box button{
+    background: #ef4f5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
