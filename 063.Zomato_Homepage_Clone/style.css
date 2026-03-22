@@ -1,12 +1,24 @@
 /* reset */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: Arial;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
 }
 
-body{
-    background: #fff;
+body {
+  background: #fff;
+}
+
+/* hero */
+
+.hero {
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
 }
