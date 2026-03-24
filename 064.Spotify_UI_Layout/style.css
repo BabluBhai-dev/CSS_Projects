@@ -1,13 +1,22 @@
 /* reset */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: Arial;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
 }
 
-body{
-    background: #000;
-    color: white;
+body {
+  background: #000;
+  color: white;
+}
+
+/* grid layout */
+
+.app {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 1fr 180px;
+  height: 100vh;
 }
