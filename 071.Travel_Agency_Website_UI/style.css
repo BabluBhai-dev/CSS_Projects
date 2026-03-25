@@ -121,3 +121,17 @@ body {
   font-size: 18px;
 }
 
+/* TESTIMONIALS */
+
+.testimonials {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.testimonial {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
