@@ -144,3 +144,17 @@ body {
   background: #111;
   color: white;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .services {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .testimonials {
+    flex-direction: column;
+  }
+}
