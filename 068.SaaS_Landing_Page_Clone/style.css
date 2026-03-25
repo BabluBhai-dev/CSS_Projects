@@ -127,3 +127,10 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* Highlight plan */
+
+.popular {
+  border: 2px solid #6366f1;
+  transform: scale(1.05);
+}
