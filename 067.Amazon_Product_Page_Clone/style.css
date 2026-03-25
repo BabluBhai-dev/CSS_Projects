@@ -96,3 +96,19 @@ button{
     cursor: pointer;
     font-weight: bold;
 }
+
+.cart{
+    background: #ffd814;
+}
+
+.cart:hover{
+    background: #f7ca00;
+}
+
+.buy{
+    background: #ffa41c;
+}
+
+.buy:hover{
+    background: #fa8900;
+}
