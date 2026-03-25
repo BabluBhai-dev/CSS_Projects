@@ -50,3 +50,32 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.search {
+  display: flex;
+  margin-top: 20px;
+}
+
+.search input {
+  padding: 12px;
+  border: none;
+  width: 250px;
+}
+
+.search button {
+  padding: 12px 20px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
