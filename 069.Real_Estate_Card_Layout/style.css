@@ -48,3 +48,17 @@ body {
   width: 100%;
   display: block;
 }
+
+/* PRICE BADGE */
+
+.price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #22c55e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
