@@ -36,3 +36,13 @@ body {
 .sidebar ul{
     list-style: none;
 }
+
+.sidebar li{
+    margin: 15px 0;
+    cursor: pointer;
+    color: #b3b3b3;
+}
+
+.sidebar li:hover{
+    color: white;
+}
