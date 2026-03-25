@@ -71,3 +71,19 @@ body {
   border-color: #1877f2;
   box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
 }
+
+/* button */
+
+.login-btn {
+  background: #1877f2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #166fe5;
+}
