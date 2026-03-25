@@ -153,3 +153,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
