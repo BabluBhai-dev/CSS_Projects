@@ -13,11 +13,26 @@ body {
 
 /* grid layout */
 
-.container{
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 260px 1fr 260px;
-    gap: 20px;
-    padding: 20px;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 260px 1fr 260px;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* common card style */
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
 }
