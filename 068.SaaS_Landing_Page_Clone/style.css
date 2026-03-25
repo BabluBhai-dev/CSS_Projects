@@ -10,3 +10,16 @@ body {
   background: #f9fafb;
   color: #111;
 }
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index:100;
+}
