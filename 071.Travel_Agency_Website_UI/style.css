@@ -107,3 +107,16 @@ body {
 .card:hover {
   transform: translateY(-5px);
 }
+
+/* SERVICES */
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: white;
+}
+
+.service {
+  font-size: 18px;
+}
