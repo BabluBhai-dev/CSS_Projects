@@ -79,7 +79,7 @@ body {
   color: white;
   border: none;
   padding: 12px;
-  border-radius: 16px;
+  border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -104,3 +104,17 @@ body {
 .create-btn:hover {
   background: #36a420;
 }
+
+/* link */
+
+.forgot{
+text-align:center;
+color:#1877f2;
+font-size:14px;
+text-decoration:none;
+}
+
+.forgot:hover{
+text-decoration:underline;
+}
+
