@@ -65,3 +65,11 @@ body {
   display: block;
   margin: 5px 0;
 }
+
+/* listing */
+
+.listings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
