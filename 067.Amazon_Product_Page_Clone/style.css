@@ -47,6 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  height: fit-content;
 }
 
 .details h2 {
@@ -66,4 +67,17 @@ body {
 .desc {
   color: #555;
   line-height: 1.5;
+}
+
+/* buy box */
+
+.buy-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: fit-content;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
