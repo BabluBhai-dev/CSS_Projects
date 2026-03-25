@@ -88,3 +88,10 @@ body {
 .card:hover {
   transform: translateY(-5px);
 }
+
+/* IMAGE */
+
+.card img {
+  width: 300px;
+  object-fit: cover;
+}
