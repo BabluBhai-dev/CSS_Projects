@@ -39,11 +39,29 @@ body {
 
 /* main layout */
 
-.container{
-    max-width:1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 20px;
-    padding: 20px;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* FILTERS */
+
+.filters {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.filters h3 {
+  margin: 10px 0;
+}
+
+.filters label {
+  display: block;
+  margin: 5px 0;
 }
