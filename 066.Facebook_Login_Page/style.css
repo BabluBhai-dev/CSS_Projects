@@ -118,3 +118,12 @@ text-decoration:none;
 text-decoration:underline;
 }
 
+/* BOTTOM TEXT */
+
+.bottom-text{
+margin-top:20px;
+font-size:14px;
+color:#1c1e21;
+text-align:center;
+}
+
