@@ -101,3 +101,22 @@ body {
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+
+/* CTA */
+
+.cta {
+  background: #6366f1;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.cta button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #6366f1;
+  border-radius: 6px;
+  cursor: pointer;
+}
