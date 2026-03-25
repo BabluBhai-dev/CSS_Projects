@@ -66,3 +66,8 @@ body {
   font-size: 14px;
   outline: none;
 }
+
+.login-box input:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+}
