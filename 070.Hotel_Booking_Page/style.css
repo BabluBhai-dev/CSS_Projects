@@ -95,3 +95,21 @@ body {
   width: 300px;
   object-fit: cover;
 }
+
+/* INFO */
+
+.info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rating {
+  color: #f59e0b;
+}
+
+.price {
+  color: #16a34a;
+  font-weight: bold;
+}
