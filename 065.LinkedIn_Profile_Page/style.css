@@ -33,26 +33,31 @@ body {
 }
 
 /* left  */
-.left{
-    display: flex;
-    flex-direction: column;
+.left {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Main */
 
-.main{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* Profile card */
 
-.profile-card{
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow:0 2px 5px rgba(0,0,0,0.08);
+.profile-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
+/* cover */
 
+.cover {
+  height: 160px;
+  background: linear-gradient(to right, #0a66c2, #004182);
+}
