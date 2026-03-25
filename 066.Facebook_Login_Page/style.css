@@ -87,3 +87,20 @@ body {
 .login-btn:hover {
   background: #166fe5;
 }
+
+/* create btn */
+
+.create-btn {
+  background: #42b72a;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background: #36a420;
+}
