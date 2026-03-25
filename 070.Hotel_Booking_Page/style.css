@@ -113,3 +113,14 @@ body {
   color: #16a34a;
   font-weight: bold;
 }
+
+/* BUTTON */
+
+button {
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
