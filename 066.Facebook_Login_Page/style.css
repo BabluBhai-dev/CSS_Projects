@@ -10,3 +10,14 @@
 body {
   background: #f0f2f5;
 }
+
+/* main layout */
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    padding: 20px;
+}
