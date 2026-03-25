@@ -33,7 +33,37 @@ body {
   text-align: center;
 }
 
-.image-section img{
-    height: 400px;
-    width: 350px;
+.image-section img {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* details */
+
+.details {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details h2 {
+  font-size: 22px;
+}
+
+.rating {
+  color: #f59e0b;
+}
+
+.price {
+  font-size: 24px;
+  color: #b12704;
+  font-weight: bold;
+}
+
+.desc {
+  color: #555;
+  line-height: 1.5;
 }
