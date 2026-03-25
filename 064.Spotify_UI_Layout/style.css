@@ -23,26 +23,38 @@ body {
 
 /* side bar */
 
-.sidebar{
-    grid-row: 1 / 2;
-    background: #121212;
-    padding: 20px;
+.sidebar {
+  grid-row: 1 / 2;
+  background: #121212;
+  padding: 20px;
 }
 
-.sidebar h2{
-    margin-bottom: 20px;
+.sidebar h2 {
+  margin-bottom: 20px;
 }
 
-.sidebar ul{
-    list-style: none;
+.sidebar ul {
+  list-style: none;
 }
 
-.sidebar li{
-    margin: 15px 0;
-    cursor: pointer;
-    color: #b3b3b3;
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+  color: #b3b3b3;
 }
 
-.sidebar li:hover{
-    color: white;
+.sidebar li:hover {
+  color: white;
+}
+
+/* main content */
+
+.main {
+  background: #181818;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.main h2 {
+  margin-bottom: 20px;
 }
