@@ -10,3 +10,14 @@
 body {
   background: #f3f3ef;
 }
+
+/* grid layout */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 260px 1fr 260px;
+    gap: 20px;
+    padding: 20px;
+}
