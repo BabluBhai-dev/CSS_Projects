@@ -107,23 +107,39 @@ body {
 
 /* link */
 
-.forgot{
-text-align:center;
-color:#1877f2;
-font-size:14px;
-text-decoration:none;
+.forgot {
+  text-align: center;
+  color: #1877f2;
+  font-size: 14px;
+  text-decoration: none;
 }
 
-.forgot:hover{
-text-decoration:underline;
+.forgot:hover {
+  text-decoration: underline;
 }
 
 /* BOTTOM TEXT */
 
-.bottom-text{
-margin-top:20px;
-font-size:14px;
-color:#1c1e21;
-text-align:center;
+.bottom-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #1c1e21;
+  text-align: center;
 }
 
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 48px;
+  }
+
+  .left p {
+    font-size: 18px;
+  }
+}
