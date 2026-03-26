@@ -28,3 +28,14 @@ body {
   margin: 0 10px;
   text-decoration: none;
 }
+
+/* hero */
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
