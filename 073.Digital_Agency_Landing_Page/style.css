@@ -39,3 +39,22 @@ body {
   text-align: center;
   background: linear-gradient(135deg, #1e293b, #0f172a);
 }
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
