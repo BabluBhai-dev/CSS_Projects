@@ -144,3 +144,19 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .testimonials {
+    flex-direction: column;
+  }
+}
