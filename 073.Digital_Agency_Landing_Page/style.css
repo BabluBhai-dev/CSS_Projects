@@ -112,3 +112,18 @@ body {
   background: #334155;
   border-radius: 10px;
 }
+
+/* TESTIMONIALS */
+
+.testimonials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.testimonial {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
