@@ -129,3 +129,12 @@ body {
   border-radius: 10px;
   display: inline-block;
 }
+
+/* cta */
+
+.cta{
+    text-align: center;
+    padding: 60px;
+    background: #111;
+    color: white;
+}
