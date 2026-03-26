@@ -115,3 +115,17 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+
+/* Testimonial */
+
+.testimonials {
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
