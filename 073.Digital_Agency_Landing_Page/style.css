@@ -1,13 +1,30 @@
 /* reset */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background: #0f172a;
-    color: white;
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NavBar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #0f172a;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
 }
