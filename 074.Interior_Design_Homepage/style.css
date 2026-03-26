@@ -30,3 +30,28 @@ body {
   text-decoration: none;
   color: #333;
 }
+
+/* hero */
+
+.hero {
+  height: 90vh;
+  background: url("Image/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
