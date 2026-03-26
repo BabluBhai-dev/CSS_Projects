@@ -37,3 +37,14 @@ body {
   border-radius: 15px;
   margin-bottom: 15px;
 }
+
+/* TEXT */
+
+.player h2 {
+  margin-bottom: 5px;
+}
+
+.player p {
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
