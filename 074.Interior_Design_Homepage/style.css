@@ -6,3 +6,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* body */
+
+body{
+    background: #fafafa;
+    color: #111;
+}
