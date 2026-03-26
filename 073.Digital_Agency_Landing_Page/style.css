@@ -58,3 +58,18 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* clients */
+
+.clients {
+  text-align: center;
+  padding: 30px;
+  color: #94a3b8;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
