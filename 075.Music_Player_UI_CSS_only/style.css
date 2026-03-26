@@ -29,3 +29,11 @@ body {
   color: white;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+/* COVER */
+
+.cover {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
