@@ -132,9 +132,17 @@ body {
 
 /* cta */
 
-.cta{
-    text-align: center;
-    padding: 60px;
-    background: #111;
-    color: white;
+.cta {
+  text-align: center;
+  padding: 60px;
+  background: #111;
+  color: white;
+}
+
+.cta button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #c19a6b;
+  color: white;
 }
