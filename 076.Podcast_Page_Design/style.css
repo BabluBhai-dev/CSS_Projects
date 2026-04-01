@@ -13,3 +13,10 @@ body{
     background: #0f172a;
     color: white;
 }
+
+/* header */
+
+.header{
+    padding: 20px 50px;
+    background: #020617;
+}
