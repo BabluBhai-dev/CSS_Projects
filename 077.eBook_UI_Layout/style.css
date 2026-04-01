@@ -51,3 +51,29 @@ body {
 .active {
   background: #22c55e;
 }
+
+/* READER */
+
+.reader {
+  padding: 40px;
+  overflow-y: auto;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* TYPOGRAPHY (VERY IMPORTANT) */
+
+.reader h1 {
+  margin-bottom: 10px;
+}
+
+.author {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.content p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
