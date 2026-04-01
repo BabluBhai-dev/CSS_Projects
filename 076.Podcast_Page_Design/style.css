@@ -6,3 +6,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* styling the body */
+
+body{
+    background: #0f172a;
+    color: white;
+}
