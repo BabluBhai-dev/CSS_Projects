@@ -75,3 +75,25 @@ body {
         width: 100%;
     }
 }
+
+/* controls */
+
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.controls button{
+    background: #1e293b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+  background: #22c55e;
+}
