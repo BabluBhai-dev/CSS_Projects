@@ -60,40 +60,47 @@ body {
   margin-bottom: 20px;
 }
 
-.bar{
-    width:60px;
-    height: 100%;
-    background: #22c55e;
-    animation: load 5s linear infinite;
+.bar {
+  width: 60px;
+  height: 100%;
+  background: #22c55e;
+  animation: load 5s linear infinite;
 }
 
 @keyframes load {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 100%;
-    }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 /* controls */
 
-.controls{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.controls button{
-    background: #1e293b;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
+.controls button {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .controls button:hover {
   background: #22c55e;
+}
+
+/* PLAY BUTTON BIG */
+
+.play {
+  transform: scale(1.2);
+  background: #22c55e !important;
 }
