@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="checkout">
+      <!-- LEFT: FORM -->
+      <div class="form-section">
+        <h2>Billing Details</h2>
+
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+        <input type="text" placeholder="Address" />
+        <input type="text" placeholder="City" />
+        <input type="text" placeholder="ZIP Code" />
+
+        <h3>Payment</h3>
+
+        <div class="payment">
+          <label><input type="radio" name="pay" /> Credit Card</label>
+          <label><input type="radio" name="pay" /> UPI</label>
+          <label><input type="radio" name="pay" /> Cash on Delivery</label>
+        </div>
+      </div>
+
+      <!-- RIGHT: SUMMARY -->
+      <div class="summary">
+        <h2>Order Summary</h2>
+
+        <div class="item">
+          <span>Headphones</span>
+          <span>₹1999</span>
+        </div>
+
+        <div class="item">
+          <span>Smart Watch</span>
+          <span>₹2999</span>
+        </div>
+
+        <hr />
+
+        <div class="total">
+          <span>Total</span>
+          <span>₹4998</span>
+        </div>
+
+        <button>Place Order</button>
+      </div>
+    </div>
+  </body>
+</html>
