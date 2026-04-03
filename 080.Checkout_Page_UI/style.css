@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* MAIN LAYOUT */
+
+.checkout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  width: 900px;
+}
+
+/* FORM */
+
+.form-section {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-section h2 {
+  margin-bottom: 15px;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* PAYMENT */
+
+.payment {
+  margin-top: 10px;
+}
+
+.payment label {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+/* SUMMARY */
+
+.summary {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  height: fit-content;
+}
+
+.summary h2 {
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/* BUTTON */
+
+.summary button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.summary button:hover {
+  background: #16a34a;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .checkout {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+}
