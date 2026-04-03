@@ -27,41 +27,41 @@ body {
 
 /* Toggle */
 
-.toggle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
-.toggle input{
-    display: none;
+.toggle input {
+  display: none;
 }
 
-.toggle label{
-    width: 50px;
-    height: 25px;
-    background: #ccc;
-    border-radius: 20px;
-    position: relative;
-    cursor: pointer;
+.toggle label {
+  width: 50px;
+  height: 25px;
+  background: #ccc;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
 }
 
-.toggle label::after{
-    content: "";
-    width: 20px;
-    height: 20px;
-    background: white;
-    position: absolute;
-    top: 2.5px;
-    left: 3px;
-    border-radius: 50%;
-    transition: 0.3s;
+.toggle label::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  top: 2.5px;
+  left: 3px;
+  border-radius: 50%;
+  transition: 0.3s;
 }
 
-#switch:checked + label::after{
-    transform: translateX(24px);
+#switch:checked + label::after {
+  transform: translateX(24px);
 }
 
 /* cards */
@@ -71,4 +71,21 @@ body {
   gap: 25px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* CARD */
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 260px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
