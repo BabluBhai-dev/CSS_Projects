@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* SECTION */
+
+.faq {
+  width: 500px;
+}
+
+.faq h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ITEM */
+
+.item {
+  background: white;
+  margin: 10px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* HIDE CHECKBOX */
+
+.item input {
+  display: none;
+}
+
+/* QUESTION */
+
+.item label {
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+/* ADD ICON */
+
+.item label::after {
+  content: "+";
+  position: absolute;
+  right: 15px;
+  transition: 0.3s;
+}
+
+/* ANSWER */
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  transition: 0.3s;
+  color: #555;
+}
+
+/* OPEN STATE */
+
+.item input:checked ~ .content {
+  max-height: 100px;
+  padding: 15px;
+}
+
+/* ROTATE ICON */
+
+.item input:checked + label::after {
+  content: "-";
+}
