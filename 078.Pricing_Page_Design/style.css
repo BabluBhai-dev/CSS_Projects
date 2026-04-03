@@ -110,3 +110,49 @@ body {
   font-size: 12px;
   border-radius: 20px;
 }
+
+/* PRICE */
+
+.price {
+  font-size: 28px;
+  margin: 15px 0;
+  color: #22c55e;
+}
+
+/* FEATURES */
+
+.card ul {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.card li {
+  margin: 8px 0;
+  color: #555;
+}
+
+/* BUTTON */
+
+.card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #4f46e5;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
